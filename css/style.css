@@ -3,3 +3,68 @@
     padding:0;
     box-sizing:border-box;
 }
+/*======================CSS=======Typhography================*/
+.container{
+    width:80%;
+    margin:0 auto;
+}
+ul li{
+    list-style-type:none;
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    cursor:pointer;
+    border:none;
+    padding:10px 15px;
+    border-radius:5px;
+}
+/*=============================Typhography=== CSS=============*/
+
+/*===================Navbar========Section===================================*/
+.navbar{
+    width:100%;
+    background:white;
+    box-shadow:3px 1px 5px 2px #ccc;
+    padding:20px 0;
+}
+.nav-logo a{
+    text-transform: uppercase;
+    color:rgb(51, 50, 50);
+    font-size:30px;
+    font-weight:600;
+}
+.nav-logo a:hover{
+    color:purple;
+}
+.navbar-flex{
+    display:flex;
+    justify-content: space-evenly;
+}
+.navbar-menu ul{
+    display:flex;
+}
+.navbar-menu ul li{
+    padding:10px 20px;
+}
+.navbar-menu ul li a{
+    text-transform:uppercase;
+    color:#000;
+}
+.navbar-menu ul li a:hover{
+    color:purple;
+}
+.btn-hire-me{
+    background:purple;
+    color:#fff;
+    padding:15px 30px;
+    font-size: 18px;
+    transition:0.5s all ease;
+}
+.btn-hire-me:hover{
+    background: transparent;
+    color:purple;
+    outline:1px solid purple;
+}
+/*===================Navbar========Section===================================*/
