@@ -25,7 +25,6 @@ a{
 /*===================Navbar========Section===================================*/
 .navbar{
     width:100%;
-    background:white;
     box-shadow:3px 1px 5px 2px #ccc;
     padding:20px 0;
 }
@@ -40,7 +39,7 @@ a{
 }
 .navbar-flex{
     display:flex;
-    justify-content: space-evenly;
+    justify-content:space-between;
 }
 .navbar-menu ul{
     display:flex;
@@ -68,3 +67,22 @@ a{
     outline:1px solid purple;
 }
 /*===================Navbar========Section===================================*/
+/*===================Header========Section===================================*/
+#header{
+    width:100%;
+    background:#fff;
+    color:#000;
+}
+.header-flex{
+    display:flex;
+    align-items:center;
+    height:100vh;
+    justify-content:flex-end;
+}
+.header-width-divided{
+    width:50%;
+}
+.header-images img{
+    width:100%;
+}
+/*===================Header========Section===================================*/
