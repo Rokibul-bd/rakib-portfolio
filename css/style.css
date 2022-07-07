@@ -23,10 +23,9 @@ a{
 /*=============================Typhography=== CSS=============*/
 
 /*===================Navbar========Section===================================*/
-.navbar{
-    width:100%;
-    box-shadow:3px 1px 5px 2px #ccc;
-    padding:20px 0;
+#navbar{
+    border-bottom:1px solid #ddd;
+    padding:30px 0;
 }
 .nav-logo a{
     text-transform: uppercase;
@@ -54,7 +53,7 @@ a{
 .navbar-menu ul li a:hover{
     color:purple;
 }
-.btn-hire-me{
+.btn-hire-me, .btn-resume{
     background:purple;
     color:#fff;
     padding:15px 30px;
@@ -77,10 +76,35 @@ a{
     display:flex;
     align-items:center;
     height:100vh;
-    justify-content:flex-end;
+    justify-content:space-between;
 }
 .header-width-divided{
     width:50%;
+}
+.header-text h1{
+    font-weight:700;
+    font-size:40px;
+}
+.header-text h3{
+    font-weight:400;
+    font-size:40px;
+    margin:40px 0;
+    color:purple;
+}
+.header-text p{
+    font-size:18px;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    color:#707070;
+    margin-bottom: 40px;
+}
+.btn-resume:hover{
+    background: transparent;
+    color:purple;
+    outline:1px solid purple;
+}
+.header-images{
+    margin-right:150px;
 }
 .header-images img{
     width:100%;
